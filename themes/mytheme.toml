@@ -1,0 +1,4 @@
+"ui.virtual.inlay-hint" = true           # Default style for inlay hints of all kinds
+"ui.virtual.inlay-hint.parameter" = true # Style for inlay hints of kind `parameter` (LSPs are not required to set a kind)
+"ui.virtual.inlay-hint.type" = true      # Style for inlay hints of kind `type` (LSPs are not required to set a kind)
+"ui.selection" = true
