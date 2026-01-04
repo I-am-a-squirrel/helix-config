@@ -2,3 +2,21 @@ theme = "my_rose_pine"
 
 [editor.lsp]
 display-inlay-hints = true
+
+[editor.whitespace]
+render = "all"
+# or control each character
+#[editor.whitespace.render]
+#space = "all"
+#tab = "all"
+#nbsp = "none"
+#nnbsp = "none"
+#newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
